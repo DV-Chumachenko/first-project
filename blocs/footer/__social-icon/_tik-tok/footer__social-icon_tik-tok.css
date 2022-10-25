@@ -1,0 +1,8 @@
+.footer__social-icon_tik-tok {
+  background-image: url(../../../../images/tiktok.svg);
+  background-size: 70%;
+  background-color: #575656;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+}

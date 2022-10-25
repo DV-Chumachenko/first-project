@@ -1,0 +1,8 @@
+.footer__social-icon_youtube {
+  background-image: url(../../../../images/icon-youtube-play.svg);
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center;
+  background-color: #575656;
+  border-radius: 50%;
+}
