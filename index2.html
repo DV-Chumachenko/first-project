@@ -14,10 +14,9 @@
       <div class="logo logo_place_header">
         <img src="./images/logo_place_header.svg" alt="Лого">
       </div>
-      <div class="header__title"><p class="text">Научиться учиться</p></div>
+      <h1 class="header__title text">Научиться учиться</h1>
       <div class="header__square-pic motion"></div>
       <img class="header__main-illustration" src="./images/header-image.png" alt="здесь должна быть картинка">
-
       <div class="header__subtitle"><p class="text">Какие современные и эффективные
         подходы к обучению вы можете использовать в своей жизни? <a href="" class="header__link link-hover">Узнать</a>
       </p></div>
@@ -92,13 +91,13 @@
       </section>
       <!--Секция video-->
       <section class="video">
-        <div class="section-title video__section-title"><h1 class="text">Видео на TED</h1></div>
+        <div class="section-title video__section-title"><h2 class="text">Видео на TED</h2></div>
         <div class="section-subtitle video__section-subtitle"><p class="text">Для тех, кто любит прокрастинировать</p></div>
       <div class="video__iframes">
-        <iframe class="video__iframe" width="515" height="316" id="ytplayer" alt="видео"
+        <iframe class="video__iframe" width="515" height="316" id="ytplayer"
           src="https://www.youtube.com/embed/5MgBikgcWnY"
            allowfullscreen></iframe>
-        <iframe class="video__iframe" width="515" height="316" alt="видео" src="https://www.youtube.com/embed/arj7oStGLkU"
+        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
           title="YouTube video player"  allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
@@ -129,6 +128,47 @@
         <div class="feynman__subtitle"><p class="text">Выучить и не забыть</p></div>
         <div class="feynman__link link-hover"><a href="#">Подробнее</a></div>
       </section>
+      <!--Секция digits-->
+      <section class="digits">
+        <div class="section-title digits__section-title"><h3 class="text">Цифры и факты</h3></div>
+        <div class="section-subtitle digits__section-subtitle"><p class="text">Про учебу и мозг</p></div>
+        <div class="table flexbox digits__table">
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">86 миллиардов</h3></div>
+            <div class="table__text"><p class="text">Число нейронов в мозге человека</p></div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">2,1 миллиарда</h3></div>
+            <div class="table__text"><p class="text">Число нуждающихся в повышении квалификации</p></div>
+            <div><p class="text">Всемирный Банк, 2017</p></div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">1000 терабайт</h3></div>
+            <div class="table__text"><p class="text">Объем памяти человека</p></div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">500 триллионов</h3></div>
+            <div class="table__text"><p class="text">Число ответственных за обучение нервных синапсов у взрослого человека</p></div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">420 миллионов</h3></div>
+            <div class="table__text"><p class="text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p></div>
+            <div><p class="text">Всемирный Банк, 2017</p></div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">17-20 лет</h3></div>
+            <div class="table__text"><p class="text">Пик обучаемости</p></div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">1885 год</h3></div>
+            <div class="table__text"><p class="text">Открытие кривой забывания</p></div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading"><h3 class="text">1889 год</h3></div>
+            <div class="table__text"><p class="text">Открытие условного рефлекса</p></div>
+          </div>
+        </div>
+        </section>
       <!--Секция khan-->
       <section class="khan">
         <div class="khan__container"></div>
@@ -141,8 +181,8 @@
         <div class="khan__quote-author"><p class="text">Джордж Лукас</p></div>
         <div class="khan__quote-author-subline"><p class="text">Кинорежиссер, продюсер</p></div>
         <div class="khan__book-container">
-          <div class="khan__book-pic"></div>
-          <div class="khan__buy-link"><a href="#" class="link-hover">Купить книгу &rarr;</a></div>
+          <img src="./images/khan-book.jpg" alt="обложка" class="khan__book-pic">
+          <a href="#" class="khan__buy-link link-hover">Купить книгу &rarr;</a>
         </div>
       </section>
       <!--Секция kaufman-->
@@ -195,47 +235,7 @@
           <img src="./images/kaufman-triangle.svg" alt="тругольник">
         </div>
       </section>
-      <!--Секция digits-->
-      <section class="digits">
-        <div class="section-title digits__section-title"><h3 class="text">Цифры и факты</h3></div>
-        <div class="section-subtitle digits__section-subtitle"><p class="text">Про учебу и мозг</p></div>
-        <div class="table flexbox digits__table">
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">86 миллиардов</h3></div>
-            <div class="table__text"><p class="text">Число нейронов в мозге человека</p></div>
-          </div>
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">2,1 миллиарда</h3></div>
-            <div class="table__text"><p class="text">Число нуждающихся в повышении квалификации</p></div>
-            <div><p class="text">Всемирный Банк, 2017</p></div>
-          </div>
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">1000 терабайт</h3></div>
-            <div class="table__text"><p class="text">Объем памяти человека</p></div>
-          </div>
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">500 триллионов</h3></div>
-            <div class="table__text"><p class="text">Число ответственных за обучение нервных синапсов у взрослого человека</p></div>
-          </div>
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">420 миллионов</h3></div>
-            <div class="table__text"><p class="text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p></div>
-            <div><p class="text">Всемирный Банк, 2017</p></div>
-          </div>
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">17-20 лет</h3></div>
-            <div class="table__text"><p class="text">Пик обучаемости</p></div>
-          </div>
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">1885 год</h3></div>
-            <div class="table__text"><p class="text">Открытие кривой забывания</p></div>
-          </div>
-          <div class="table__cell">
-            <div class="table__heading"><h3 class="text">1889 год</h3></div>
-            <div class="table__text"><p class="text">Открытие условного рефлекса</p></div>
-          </div>
-        </div>
-        </section>
+
       <!--Секция resources-->
       <section class="resources">
         <div class="section-title resources__section-title"><h4 class="text">Полезные ресурсы</h4></div>
@@ -267,9 +267,9 @@
         <div class="footer__column_content_social">
           <div><a href="#" class="footer__column-heading link-hover">Соцсети</a></div>
             <nav class="footer__column-links">
-            <a class="footer__column-link link-hover" href="#"><div class="footer__social-icon"><img src="./images/instagram_color_white.svg" alt="logo_vk"> </div> Instagram</a>
-            <a class="footer__column-link link-hover" href="#"><div class="footer__social-icon"><img src="./images/vk_color_white.svg" alt="logo_vk"> </div> ВКонтакте</a>
-            <a class="footer__column-link link-hover" href="#"><div class="footer__social-icon"><img src="./images/facebook_color_white.svg" alt="logo_FB"></div> Facebook</a>
+              <a class="footer__column-link link-hover" href="#"><div class="footer__social-icon footer__social-icon_youtube"></div> YouTube</a>
+              <a class="footer__column-link link-hover" href="#"><div class="footer__social-icon footer__social-icon_vk"> </div> ВКонтакте</a>
+              <a class="footer__column-link link-hover" href="#"><div class="footer__social-icon footer__social-icon_tik-tok"></div> TikTok</a>
             </nav>
 
           </div>
